@@ -1,0 +1,4 @@
+### retry
+### cache // cacheTime (default 5 min)
+### easy to write
+### staleTime // (default 0) the time when query is not triggered in background and user will see the same data from the cache
