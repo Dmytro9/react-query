@@ -16,9 +16,9 @@ export const useSuperHeroesData = (onSuccess, onError) => {
     enabled: false, // disable fetch on Mount (to implement controlled fetching as fetch on click using refetch)
     onSuccess,
     onError,
-    select: (data) => {
-      const superHeroesNames = data.data.map((hero) => hero.name);
-      return superHeroesNames;
-    }, // get/transforme data needed from response data object
+    // select: (data) => {
+    //   const superHeroesNames = data.data.map((hero) => hero.name);
+    //   return superHeroesNames;
+    // }, // get/transform data needed from response data object
   });
 };
