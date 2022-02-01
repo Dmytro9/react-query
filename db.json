@@ -29,6 +29,11 @@
       "name": "test 2",
       "alterEgo": "test 2",
       "id": 6
+    },
+    {
+      "name": "test 3",
+      "alterEgo": "test 3",
+      "id": 7
     }
   ],
   "friends": [
